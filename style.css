@@ -1,0 +1,56 @@
+body {
+  margin: 0;
+  font-family: "DotGothic16", sans-serif;
+}
+
+nav {
+  position: absolute;
+
+  /* object-fit: cover; */
+}
+
+.starButton {
+  display: flex;
+  flex-direction: row;
+  justify-content: end;
+}
+
+.section1 {
+  padding: 24px;
+}
+
+section {
+  position: relative;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.section1 video,
+.section2 video {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: -1;
+}
+
+.Essential {
+  position: relative;
+  z-index: 1;
+  position: relative;
+  z-index: 1;
+  color: white;
+  display: flex;
+  justify-self: center;
+  flex-direction: column;
+  justify-content: center;
+  height: 100vh;
+}
+
+.Essential p {
+  color: black;
+  margin: 0;
+  font-size: 311px;
+  text-transform: uppercase;
+}
