@@ -15,6 +15,7 @@ nav {
   justify-content: end;
 }
 
+/* section1 */
 .section1 {
   padding: 24px;
 }
@@ -25,8 +26,9 @@ section {
   overflow: hidden;
 }
 
-.section1 video,
-.section2 video {
+.section1 .Video01,
+.section2 .Video02,
+.section3 .Video03 {
   position: absolute;
   inset: 0;
   width: 100%;
@@ -53,4 +55,87 @@ section {
   margin: 0;
   font-size: 311px;
   text-transform: uppercase;
+}
+
+/* section2 */
+
+.whatIsEssential {
+  display: flex;
+  flex-direction: column;
+  justify-self: center;
+  justify-content: space-between;
+  
+}
+
+.tekst {
+  display: flex;
+  flex-direction: column;
+  justify-self: center;
+  justify-content: center;
+  margin: 80px 0;
+}
+
+.tekst p {
+  font-size: 60px;
+  line-height: 1.3em;
+  margin: 0;
+  text-align: center;
+}
+
+/* video */
+.Video {
+  display: flex;
+  justify-content: center;
+  justify-self: center;
+  margin-bottom: 80px;
+}
+
+.Video video {
+  border: 1px solid black;
+  border-radius: 5px;
+  box-shadow: 1px 1px 1px rgba(104, 104, 104, 0.76);
+}
+
+/* tekst in the small white box */
+.Introduction {
+  max-width: 448px;
+  background-color: white;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-self: center;
+  justify-content: space-between;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 12px;
+  margin-bottom: 224px;
+
+}
+
+.smallTekst {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.smallTekst p {
+  margin: 0;
+
+}
+
+.circle {
+  border-radius: 50%;
+  width: 7px;
+  height: 7px;
+  display: flex;
+  flex-direction: column;
+  justify-self: center;
+  border: 1px solid black;
+}
+
+/* komaha */
+.komaha {
+  display: flex;
+  justify-content: end;
+  justify-self: end;
 }
